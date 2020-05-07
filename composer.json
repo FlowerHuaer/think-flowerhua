@@ -1,0 +1,25 @@
+{
+    "name": "flowerhua/think-flowerhua",
+    "description": "常用类/方法",
+    "keywords": [
+        "flowerhua"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FlowerHua",
+            "email": "875501286@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "flowerhua\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
