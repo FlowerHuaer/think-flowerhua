@@ -7,7 +7,3 @@ function test(){
 function test2(){
     return 3;
 }
-
-function dump(){
-    return 4;
-}
